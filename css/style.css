@@ -11,9 +11,41 @@ body{
 
 }
 
+/* Background */
 .frame{
   width: 100%;
   height: 100vh;
   border-top: 100px solid green;
   background-color: lightgrey;
+}
+
+/* Main-Part */
+.container{
+  display: flex;
+  height: 550px;
+  width: 80%;
+  margin: auto;
+  margin-top: -60px;
+  background-color: lightpink;
+}
+
+/* First section */
+.avatar-box{
+  width: 35%;
+  height: 550px;
+
+  background-color: cadetblue;
+}
+
+
+
+
+
+/* Second section */
+.conversation-box{
+  width: 65%;
+  height: 550px;
+
+  background-color: pink;
+
 }
