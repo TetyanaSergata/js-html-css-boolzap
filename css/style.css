@@ -6,10 +6,19 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   min-width: 500px;
-
+  font-size: 10px;
 }
+
+.paddin_left_10{
+  padding-left: 10px;
+}
+
+.float_right{
+  float: right;
+}
+
 
 /* Background */
 .frame{
@@ -45,6 +54,7 @@ body{
   display: flex;
   height: 50px;
   width: 100%;
+  /* padding-left: 10px; */
   background-color: #E2E2E2;
 }
 
@@ -65,34 +75,78 @@ body{
 .icon-box li{
   list-style: none;
   display: inline-block;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .icon-box li i{
-
 }
 
+
+/* Header-bottom */
 .header-bottom{
   height: 70px;
   width: 100%;
-  background-color: CornflowerBlue;
+  background-color: #38bde8;
+}
+
+.header-bottom i{
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.notice-box{
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.notice-box p{
+  font-weight: bold;
+}
+
+.notice-box a{
+  color: #666666;
 }
 
 .search-box{
-  height: 30px;
-  width: 100%;
-  background-color: bisque;
+  /* height: 30px;
+  width: 100%; */
+  padding: 5px;
+  background-color: #F0F0F0;
+
 }
 
+.search-box input{
+  height: 30px;
+  width: 100%;
+}
+
+::placeholder{
+  text-align: center;
+}
+
+/* Dialogue-list */
 .dialogue-list{
   height: 430px;
   width: 100%;
+  overflow-y: auto;
   background-color: white;
 }
 
+.dialogue-box{
+  height: 70px;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
 
-
+.dialogue-box img{
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
 
 /* Second section */
 .conversation-box{
