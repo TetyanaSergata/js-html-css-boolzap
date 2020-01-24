@@ -33,6 +33,14 @@ h3{
   font-size: 15px;
 }
 
+.font_size_14{
+  font-size: 14px;
+}
+
+.color_grey{
+  color: grey;
+}
+
 /* Background */
 .frame{
   height: 100vh;
@@ -73,7 +81,8 @@ h3{
   background-color: #E2E2E2;
 }
 
-.header-top{
+.header-top,
+.conversation-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,7 +155,7 @@ h3{
 
 /* Search-box */
 .search-box{
-  height: 30px;
+  height: 40px;
   width: 100%;
   padding: 5px;
   background-color: #F0F0F0;
@@ -164,7 +173,7 @@ h3{
 
 /* Dialogue-list */
 .dialogue-list{
-  height: 370px;
+  height: 360px;
   /* height: calc(100% -160px); */
   width: 100%;
   overflow-y: scroll;
@@ -172,6 +181,7 @@ h3{
 }
 
 .dialogue-box{
+  display: flex;
   height: 70px;
   width: 100%;
   border: 1px solid lightgrey;
@@ -183,6 +193,22 @@ h3{
   border-radius: 50%;
 }
 
+.contacts{
+  width: 90%;
+}
+
+.contact_info_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.contact_info_top .time,
+.{
+
+}
+
 /* Second section */
 .conversation-box{
   width: 65%;
@@ -191,13 +217,24 @@ h3{
   background-color: pink;
 }
 
-.conversation-top{
+.contact_info_top small,
+.contact_info_bottom small{
+  color: grey;
+}
 
+.contact{
+  width: 70%;
+}
+
+.contact .time{
+  color: grey;
+  font-size: 12px;
 }
 
 .conversation-middle{
   height: 420px;
   width: 100%;
+  overflow-y: scroll;
   background-color: white;
 }
 
