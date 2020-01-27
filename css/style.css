@@ -235,9 +235,46 @@ h3{
   height: 420px;
   width: 100%;
   overflow-y: scroll;
-  background-color: white;
+  background-image: url(../img/sfondo-moderno-whatsapp_23-2147900936.jpg);
+  background-position: center;
 }
 
 .conversation-bottom{
 
+}
+
+/* Messages */
+.message-box{
+  max-width: 50%;
+  min-width: 35%;
+  font-size: 14px;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 6px grey;
+  background-color: lightgreen;
+}
+
+.message-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-bottom{
+  text-align: right;
+}
+
+.message-top i{
+  font-size: 10px;
+}
+
+.message-box.sent{
+  float: right;
+  clear: both;
+}
+
+.message-box.received{
+  float: left;
+  clear: both;
+  background-color: white;
 }
