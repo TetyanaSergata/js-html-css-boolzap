@@ -7,7 +7,7 @@
 
 body{
   font-family: 'Alegreya Sans', sans-serif;
-  min-width: 500px;
+  min-width: 700px;
   font-size: 10px;
 }
 
@@ -41,6 +41,10 @@ h3{
   color: grey;
 }
 
+.template{
+  display: none;
+}
+
 /* Background */
 .frame{
   height: 100vh;
@@ -68,7 +72,6 @@ h3{
   height: 520px;
   /* height: 100%; */
   border-right: 1px solid lightgrey;
-  /* background-color: cadetblue; */
 }
 
 .header-top,
@@ -77,7 +80,6 @@ h3{
   /* display: flex; */
   height: 50px;
   width: 100%;
-  /* padding-left: 10px; */
   background-color: #E2E2E2;
 }
 
@@ -89,14 +91,10 @@ h3{
   padding: 10px;
 }
 
-
 .img-box {
 
 }
 
-/* .img-box img{
-  width: 100%;
-} */
 
 .img-box img{
   height: 40px;
@@ -204,8 +202,7 @@ h3{
   padding-top: 20px;
 }
 
-.contact_info_top .time,
-.{
+.contact_info_top .time{
 
 }
 
@@ -237,10 +234,7 @@ h3{
   overflow-y: scroll;
   background-image: url(../img/sfondo-moderno-whatsapp_23-2147900936.jpg);
   background-position: center;
-}
-
-.conversation-bottom{
-
+  background-size: cover;
 }
 
 /* Messages */
@@ -277,4 +271,15 @@ h3{
   float: left;
   clear: both;
   background-color: white;
+}
+
+/* Footer */
+.conversation-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.message-sent{
+  width: 80%;
 }
