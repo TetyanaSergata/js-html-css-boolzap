@@ -43,11 +43,27 @@ function sentMessage() {
     var hour = data.getHours();
     var minute = data.getMinutes();
     var time = hour + ':' + minute;
-
     newMessage.find('.message-time').text(time);
+
     newMessage.addClass('sent');
-    $('.conversation-middle').append(newMessage);
+    $('.conversation-middle.active').append(newMessage);
+    setTimeout(sentAnswer, 1000);
     $('input.message-sent').val('');
   }
   console.log(message);
+}
+
+// Risposta dall’interlocutore: ad ogni inserimento di un messaggio, l’utente riceverà un “ok” come risposta, che apparirà dopo 1 secondo.
+
+function sentAnswer() {
+  var autoAnswer = $('.template .message-box').clone();
+  autoAnswer.find('.message-text').text('ok');
+  // Data
+  var data = new Date();
+  var hour = data.getHours();
+  var minute = data.getMinutes();
+  var time = hour + ':' + minute;
+  autoAnswer.find('.message-time').text(time);
+  autoAnswer.addClass('received');
+  $('.message-box.sent').append(autoAnswer);
 }

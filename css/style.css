@@ -59,29 +59,22 @@ h3{
 
 /* Main-Part */
 .container{
-  /* display: flex; */
   height: 520px;
-  /* height: 90%; */
   width: 80%;
   margin: auto;
   margin-top: -80px;
-  /* background-color: lightpink; */
 }
 
 /* First section */
 .avatar-box{
-  /* display: flex;
-  flex-direction: column; */
   width: 35%;
   height: 520px;
-  /* height: 100%; */
   border-right: 1px solid lightgrey;
 }
 
 .header-top,
 .conversation-top,
 .conversation-bottom{
-  /* display: flex; */
   height: 50px;
   width: 100%;
   background-color: #E2E2E2;
@@ -94,11 +87,6 @@ h3{
   align-items: center;
   padding: 10px;
 }
-
-.img-box {
-
-}
-
 
 .img-box img{
   height: 40px;
@@ -114,7 +102,6 @@ h3{
   font-size: 18px;
   padding: 7px;
 }
-
 
 /* Header-bottom */
 .header-bottom{
@@ -132,7 +119,6 @@ h3{
   background-color: white;
   padding: 10px;
   border-radius: 50%;
-
 }
 
 .notice-box{
@@ -154,14 +140,12 @@ h3{
   color: #666666;
 }
 
-
 /* Search-box */
 .search-box{
   height: 40px;
   width: 100%;
   padding: 5px;
   background-color: #F0F0F0;
-
 }
 
 .search-box input{
@@ -206,16 +190,10 @@ h3{
   padding-top: 20px;
 }
 
-.contact_info_top .time{
-
-}
-
 /* Second section */
 .conversation-box{
   width: 65%;
   height: 520px;
-  /* height: 100%; */
-  background-color: pink;
 }
 
 .contact_info_top small,
@@ -263,7 +241,7 @@ h3{
 }
 
 .message-top i{
-  font-size: 10px;
+  font-size: 10px;t
 }
 
 .message-box.sent{
@@ -285,5 +263,6 @@ h3{
 }
 
 .message-sent{
+  height: 30px;
   width: 80%;
 }
