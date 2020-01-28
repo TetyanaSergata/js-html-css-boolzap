@@ -29,6 +29,10 @@ body{
   float: right;
 }
 
+.conversation-middle.active {
+  display: block;
+}
+
 h3{
   font-size: 15px;
 }
